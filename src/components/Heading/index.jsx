@@ -8,7 +8,7 @@ class Heading extends Component {
     let { title, fontSize, titleClass } = this.props;
     return (
       <>
-        <h1 className={`title ${titleClass ? titleClass : ""}`}>{title}</h1>
+        <h1 className={`title ${titleClass ? titleClass : ""}`} fontSize={fontSize}>{title}</h1>
       </>
     );
   }
