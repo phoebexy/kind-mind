@@ -1,0 +1,28 @@
+*{
+  font-family: 'Petrona', serif;
+}
+h1 {
+    .title-1 {
+      color: #e6e6e6;
+    }
+  }
+* {
+ box-sizing: border-box;
+}
+.row {
+ display: flex;
+}
+.column {
+    flex: 50%;
+    padding: 15px;
+    .bordered {
+        border-style: dotted;
+        border-width: medium;
+    }
+}
+.thing {
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    width: 10%;
+}
