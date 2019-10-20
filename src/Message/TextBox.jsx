@@ -29,9 +29,12 @@ class TextBox extends Component {
       <div>
          <Body bodyCopy="Enter message here:"/>
          <input type = "submit" value = "Hey, how's it going?" onClick = {this.messageSentOne} />
+         <p></p>
          <input type = "submit" value = "Is everything all right?" onClick = {this.messageSentTwo} />
+         <p></p>
          <input type = "submit" value = "Want to talk?" onClick = {this.messageSentThree} />
-         <input type="text" id="textbox" value = ""/>
+         <p></p> 
+         <input type="text" id="textbox" />
 
       </div>
     );

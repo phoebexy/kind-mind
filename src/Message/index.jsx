@@ -8,9 +8,9 @@ import "./Message.scss";
 import Button from "../components/Button"
 import FacebookAvatar from "../components/FacebookAvatar"
 
-import styles from "./Home.module.scss";
-import logo from "./image/heart.png"
-import kindmind from './image/kindmind.png'
+import styles from "../Home/Home.module.scss";
+import logo from "../Home/image/heart.png"
+import kindmind from '../Home/image/kindmind.png'
 class Message extends Component {
   render() {
     return (

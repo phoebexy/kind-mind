@@ -14,7 +14,6 @@ class MessageBox extends Component {
         <div class = "thing">
           <TextBox></TextBox>
           <Icon/> 
-          <Arrow/>
         </div>
       </Fragment>
     );

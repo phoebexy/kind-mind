@@ -6,7 +6,7 @@ import Message from './Message'
 function App() {
   return (
     <Fragment>
-      <Message />
+      <Home />
     </Fragment>
   );
 }

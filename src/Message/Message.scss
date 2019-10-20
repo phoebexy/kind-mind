@@ -1,5 +1,5 @@
 *{
-  font-family: 'Petrona', serif;
+    font-family: 'Nunito', sans-serif;
 }
 h1 {
     .title-1 {
@@ -11,8 +11,11 @@ h1 {
 }
 .row {
  display: flex;
+ font-family: 'Nunito', sans-serif;
+    
 }
 .column {
+    font-family: 'Nunito', sans-serif;
     flex: 50%;
     padding: 15px;
     .bordered {
@@ -21,8 +24,48 @@ h1 {
     }
 }
 .thing {
+    font-family: 'Nunito', sans-serif;
     text-align: center;
+    padding: 0.1rem;
+    font-size: 18px;
+    color: #424651;
     align-content: center;
     margin: auto;
     width: 10%;
+}
+
+.container {
+    padding: 80px;
+}
+  
+.title {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    padding: 0.1rem;
+    font-size: 18px;
+    color: #424651;
+
+    &.title-1 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+}
+
+.logo {
+height: 40px;
+width: 40px;
+display: block;
+margin: 0 auto;
+}
+  
+.kindmind {
+height: 35px;
+width: 250px;
+padding: 20px;
+display: block;
+margin: 0 auto;
+}
+
+.wrap{
+    padding:20px;
 }
