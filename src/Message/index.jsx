@@ -9,14 +9,12 @@ import Button from "../components/Button"
 import FacebookAvatar from "../components/FacebookAvatar"
 
 import styles from "../Home/Home.module.scss";
-import logo from "../Home/image/heart.png"
-import kindmind from './Images/kindmind.png'
+import KindMindLogo from "../components/KindMindLogo"
 class Message extends Component {
   render() {
     return (
       <div className={styles.container}>
-        <img src={logo} className={styles.logo} alt="Logo" />
-        <img src={kindmind} className={styles.kindmind} alt="Kind Mind" />
+        <KindMindLogo />
         <Heading title="Send some love!" titleClass="will-title" fontSize={28} />
         <MessageBox />
       </div>

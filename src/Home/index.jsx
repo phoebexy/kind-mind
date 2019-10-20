@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import Heading from "../components/Heading";
+import KindMindLogo from "../components/KindMindLogo"
 import Button from "../components/Button"
 import FacebookAvatar from "../components/FacebookAvatar"
 
 import styles from "./Home.module.scss";
-import logo from "./image/heart.png"
-import kindmind from "./image/kindmind.png"
 
 var users = [
   {
@@ -65,8 +64,7 @@ class Home extends Component {
 
     return (
       <div className={styles.container}>
-        <img src={logo} className={styles.logo} alt="Logo" />
-        <img src={kindmind} className={styles.kindmind} alt="Kind Mind" />
+        <KindMindLogo />
         <FacebookAvatar className={styles.avatar} facebookId={users[this.state.rand].id}/>
         <Heading title={string} />
         <Button title="Send Hugs"/>

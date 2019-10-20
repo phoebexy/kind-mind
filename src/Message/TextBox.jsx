@@ -27,7 +27,7 @@ class TextBox extends Component {
     render() { 
     return (
       <div>
-         <Body bodyCopy="Enter message here:"/>
+         <Body bodyCopy="Select or write your message!"/>
          <input type = "submit" value = "Hey, how's it going?" onClick = {this.messageSentOne} />
          <p></p>
          <input type = "submit" value = "Is everything all right?" onClick = {this.messageSentTwo} />

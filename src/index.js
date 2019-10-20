@@ -6,6 +6,7 @@ import "./index.css";
 import Navigation from "./Navigation";
 import NavItem from "./Navigation/navItem";
 import Home from "./Home";
+import Inactive from "./Inactive"
 import NotFound from "./NotFound";
 import View2 from "./View2";
 import Message from "./Message"
@@ -15,7 +16,8 @@ const routing = (
   <Router>
     <div>
       <Switch>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={Inactive} />
+        <Route exact path="/Home" component={Home} />
         <Route path="/message" component={Message} />
         <Route component={NotFound} />
       </Switch>
