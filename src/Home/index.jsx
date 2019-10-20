@@ -1,13 +1,16 @@
 import React, { Fragment, Component } from "react";
+
+import Heading from "../components/Heading";
+
 import "./Home.module.scss";
 
 class Home extends Component {
   render() {
     return (
       <Fragment>
-        <h1 className="title-1">Kind Mind</h1>
-        <h1>Hi Will</h1>
-        <h1>Hi Phoebe</h1>
+        <Heading title="Kind Mind" fontSize={28} />
+        <Heading title="Hi Will" titleClass="will-title" fontSize={28} />
+        <Heading title="Hi Phoebe" titleClass="phoebe-title" fontSize={28} />
       </Fragment>
     );
   }
