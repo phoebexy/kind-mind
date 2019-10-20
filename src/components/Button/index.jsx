@@ -8,7 +8,7 @@ class Button extends Component {
   render() {
     let { title } = this.props;
     return (
-      <Link to="/3">
+      <Link to="/3" style={{ textDecoration: 'none' }}>
         <h1 className={`button-title`}>{title}</h1>
       </Link>
         
