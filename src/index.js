@@ -14,12 +14,8 @@ import Home from "./Home";
 import NotFound from "./NotFound";
 import View2 from "./View2";
 
-
-import "./fonts/Lora-Bold.ttf";
-import "./fonts/Lora-Regular.ttf";
-
 import * as serviceWorker from "./serviceWorker";
-
+  
 const routing = ( <
   Router >
   <

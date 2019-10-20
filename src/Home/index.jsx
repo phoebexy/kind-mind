@@ -73,7 +73,7 @@ class Home extends Component {
         <img src={kindmind} className={styles.kindmind} alt="Kind Mind" />
         <FacebookAvatar className={styles.avatar} facebookId={users[this.state.rand].id}/>
         <Heading title={string} />
-        <Button title="Send Hugs" />
+        <Button title="Send Hugs"/>
       </div>
     );
   }
