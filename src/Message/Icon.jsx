@@ -7,7 +7,7 @@ import "./Message.scss";
 import FbImage from "./Images/facebook.svg"
 import IGImage from "./Images/instagram.svg"
 import arrowRight from "./Images/arrow-right-circle.svg"
-
+import mail from "./Images/mail.svg"
 
 class Icon extends Component { 
   constructor(props) {
@@ -22,6 +22,7 @@ class Icon extends Component {
       <div>
          <input id = "FbButton" class="column" type="image" src={FbImage} />
          <input id = "IGButton" class="column" type="image" src={IGImage} />
+         <input id = "Mail" class="column" type="image" src={mail} />
          <input type="image" className = "wrap" src={arrowRight} onClick = {this.messageSent} />
          <p></p>
          <Body  id="messageConfirm" bodyCopy = ""/> 
