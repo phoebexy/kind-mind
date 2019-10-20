@@ -13,10 +13,6 @@ var users = [
     id: "100002965549739",
   },
   {
-    name: "Will",
-    id: "100011587720202",
-  },
-  {
     name: "Ellen",
     id: "100002467969800",
   },
@@ -65,7 +61,7 @@ class Home extends Component {
 
   render() {
 
-    var string = "Sonia, time to be kind to " + users[this.state.rand].name + "!"
+    var string = "Will, time to be kind to " + users[this.state.rand].name + "!"
 
     return (
       <div className={styles.container}>
