@@ -1,11 +1,18 @@
-.h1 {
-  .title-1 {
-    color: #e6e6e6;
-    font-family: Lora;
-    text-align: center;
-    width: percentage(1/7);
-    font-size: 0.75rem;
-    padding: 0.5rem;
-    transition: background-color 0.25s ease-in-out;
-  }
+.container {
+  padding: 80px;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  display: block;
+  margin: 0 auto;
+}
+
+.kindmind {
+  height: 35px;
+  width: 250px;
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
 }
