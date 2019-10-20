@@ -10,7 +10,7 @@ import FacebookAvatar from "../components/FacebookAvatar"
 
 import styles from "../Home/Home.module.scss";
 import logo from "../Home/image/heart.png"
-import kindmind from '../Home/image/kindmind.png'
+import kindmind from './Images/kindmind.png'
 class Message extends Component {
   render() {
     return (

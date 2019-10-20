@@ -5,7 +5,7 @@ import FacebookAvatar from "../components/FacebookAvatar"
 
 import styles from "./Home.module.scss";
 import logo from "./image/heart.png"
-import kindmind from './image/kindmind.png'
+import kindmind from "./image/kindmind.png"
 
 var users = [
   {
