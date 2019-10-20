@@ -8,10 +8,6 @@ import styles from "./Home.module.scss";
 
 var users = [
   {
-    name: "Phoebe",
-    id: "100002965549739",
-  },
-  {
     name: "Ellen",
     id: "100002467969800",
   },
@@ -38,7 +34,15 @@ var users = [
   {
     name: "Yatharth",
     id: "100000697984485",
-  }
+  },
+  {
+    name: "Will",
+    id: "100011587720202",
+  },
+  {
+    name: "Jacki",
+    id: "628609396",
+  },
 ]
 class Home extends Component {
   
@@ -60,7 +64,7 @@ class Home extends Component {
 
   render() {
 
-    var string = "Will, time to be kind to " + users[this.state.rand].name + "!"
+    var string = "Phoebe, time to be kind to " + users[this.state.rand].name + "!"
 
     return (
       <div className={styles.container}>
